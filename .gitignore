@@ -1,0 +1,22 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Private keys and certificates
+*.pem
+*.key
+
+# Database backups
+*.sql.gz
+*.dump
+*.bak
+
+# Local backup directories
+/backups/
+
+# Runtime logs
+*.log
